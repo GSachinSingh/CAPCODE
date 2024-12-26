@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:4004
+
+### Get Admin dashboard
+GET {{baseUrl}}/admin
+
+### Get Admin Metadata
+GET {{baseUrl}}/admin/$metadata
